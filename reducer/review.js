@@ -1,6 +1,5 @@
 import { mkReviews } from "../data/QuizCardView";
 import { START_REVIEW, NEXT_REVIEW, STOP_REVIEW } from "../action/types";
-import { stat } from "fs";
 
 export const mkReviewState = (
     deckId = null,
