@@ -19,7 +19,7 @@ let headerOptions = {
 
 // On application start, read saved state from disk.
 readDecks().then(decks => {
-  // store.dispatch(loadData(decks));
+  store.dispatch(loadData(decks));
 });
 
 const navigator = createStackNavigator({
